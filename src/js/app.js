@@ -19,6 +19,7 @@ function start() {
   convertButton.addEventListener('click', convert)
 
   function convert() {
+    uaConvertedList.value = ''
     let uaConvertedStr = ''
     const uaStrs = uaRawList.value.trim().split('\n')
     for (const uaStr of uaStrs) {

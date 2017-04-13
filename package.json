@@ -4,6 +4,7 @@
   "description": "HTML ES6 Webpack Seed",
   "scripts": {
     "start": "webpack-dev-server",
+    "build": "webpack",
     "test": "test/unit/index.js"
   },
   "repository": {
