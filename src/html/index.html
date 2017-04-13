@@ -2,17 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>HTML5 Webpack Seed</title>
+    <title>UserAgent List Converter</title>
     <style>
-      body {
+      html {
         font-size: 20px;
+      }
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 90vh;
+      }
+      label {
+        display: block;
+        height: 1rem;
+      }
+      button {
+        font-size: 2rem;
+      }
+      #ua-container {
+        display: flex;
+        width: 100%;
+        min-height: 200px;
+        height: 50%;
+      }
+      .ta-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+      .ta-container textarea {
+        flex: 1;
+      }
+      #clone-source {
+        margin-top: 3rem;
       }
     </style>
   </head>
   <body>
-    <h1>HTML5 Webpack Seed</h1>
-    <span>Cloned from
+    <h1>UserAgent List Converter</h1>
+    <h2>Paste user agent list into raw text area below</h2>
+    <div id="ua-container">
+      <div class="ta-container">
+        <label for="user-agents">List of raw user agents:</label>
+        <textarea id="user-agents-raw"></textarea>
+      </div>
+      <div class="ta-container">
+        <label for="user-agents">Converted:</label>
+        <textarea id="user-agents-converted"></textarea>
+      </div>
+    </div>
+
+    <button id="convert">Convert</button>
+
+    <div id="clone-source">Cloned from
       <a href="https://github.com/talee/html-webpack-seed">https://github.com/talee/html-webpack-seed</a>
-    </span>
+    </div>
   </body>
 </html>
