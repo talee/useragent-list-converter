@@ -1,5 +1,5 @@
 {
-  "name": "html-webpack-seed",
+  "name": "useragent-list-converter",
   "version": "0.1.0",
   "description": "HTML ES6 Webpack Seed",
   "scripts": {
@@ -8,21 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/talee/html-webpack-seed.git"
+    "url": "git+https://github.com/talee/useragent-list-converter.git"
   },
   "keywords": [
-    "html",
-    "webpack",
-    "es6",
-    "project",
-    "seed"
+    "useragent",
+    "list",
+    "converter",
+    "browser"
   ],
   "author": "Thomas Lee <tleehoc@gmail.com>",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/talee/html-webpack-seed/issues"
+    "url": "https://github.com/talee/useragent-list-converter/issues"
   },
-  "homepage": "https://github.com/talee/html-webpack-seed#readme",
+  "homepage": "https://github.com/talee/useragent-list-converter#readme",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",

@@ -1,9 +1,6 @@
-# html-webpack-seed
+# useragent-list-converter
 
-
-HTML5 webpack ES6 JS seed project for Babel and ESLint building to a single directory of one HTML file, one JS file, and separate resource files.
-
-Suited for lightweight browser applications or browser console projects.
+Convert list of user agents to browser and major version
 
 	npm start
 
